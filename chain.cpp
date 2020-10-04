@@ -34,7 +34,7 @@ void Chain::insertBack(const Block &ndata)
     }
     curr->next = newNode;
     newNode->next = head_;
-    length_ += 1
+    length_ += 1;
     width_ = ndata.width();
     height = ndata.height();
 }
@@ -74,7 +74,6 @@ void Chain::swap(int i, int j)
  */
 void Chain::reverse()
 {
-    Node *curr = head_;
     
 }
 
